@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* serveri käivitamine: npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch
++ live server index.htnml sees */
+
+body {
+   border:1px solid green; /* deleting later */
+
+}
+
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 24px;
+}
+p {
+    font-size: 20px;
+}
