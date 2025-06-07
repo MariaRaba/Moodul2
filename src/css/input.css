@@ -49,6 +49,79 @@ p {
     margin-top: 125px;
 }
 
+/* external css: flickity.css */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+div.gallery {
+  height: 630px;
+  background-color: aqua;
+}
+
+div.gallery-cell {
+  width: 715px !important;
+  height: 630px !important;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+div.gallery-cell .carrouseltext {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+}
+
+div.gallery-cell img {
+  max-height: 100px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+
+/* cell number */
+
+div.gallery-cell {
+  width: 715px;
+  height: 354px;
+  margin-right: 10px;
+  padding: 10px;
+  background: #8C8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+div.gallery-cell div.carrouseltext {
+    display: flex;
+    flex-direction: row;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.gallery-cell .carrouselimg {
+  width: 715px;
+  height: 354px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.gallery-cell .carrouselimg img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
 
 
 /* Donation page */
@@ -159,21 +232,25 @@ div.contact div.map iframe{
 
 }
 
-.contactform {
+div.contactform {
   margin-right: 64px;
 }
 
-.contactform button {
+div.contactform button {
     width: 272px;
     height: 79px;
     border-radius: 20px;
 }
 
-   .contactform input,
-  .contactform textarea {
+   div.contactform input,
+  div.contactform textarea {
     width: 613px;
     height: 58px;
     background-color: #F3F4F6;
     border: 1px solid #9A9A9A;
     font-size: 20px;
   }
+
+
+
+  /*  */
