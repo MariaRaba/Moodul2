@@ -4,17 +4,121 @@
 /* serveri käivitamine: npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch
 + live server index.htnml sees */
 
-body {
-   border:1px solid green; /* deleting later */
+/*  Ctrl+ K, Ctrl +F */
 
+body {
+    font-family: 'Montserrat';
+    width: 1920px;
+    margin-left:auto;
+    margin-right:auto;
+    
+    background-color: #F9F8F8;
+}
+
+
+div {
+     border:1px solid green; /* deleting later */
 }
 
 h1 {
     font-size: 45px;
+    color: #2A2720;
 }
+
 h2 {
     font-size: 24px;
+    color: #2A2720;
 }
+
 p {
     font-size: 20px;
+    color: #2A2720;
 }
+
+
+.header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 5px;
+
+    text-align: right;
+    font-size: 90px;
+    margin-right: 86px;
+
+    margin-top: 125px;
+}
+
+
+
+/* Donation page */
+div.toeta {
+    margin-left: 233px;
+    margin-top: 223px;
+
+    display: flex;
+    flex-direction: row;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.toeta2 img {
+    width: 948px;
+    height: auto;
+}
+
+div.toeta div.toeta1 .tp1 {
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+div.toeta div.toeta1 .tp2 {
+    padding-bottom: 80px;
+}
+
+div.toeta div.toeta1 .ülekanne {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+div.toeta div.toeta1 .toetal {
+    padding-top: 32px;
+    padding-bottom: 321px;
+}
+
+/* Contact page */
+div.contact {
+    margin-top: 223px;
+    
+    margin-left: 233px;
+    margin-right: 233px;
+}
+
+div.contact div.contactbox {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+
+    
+}
+
+div.contact div.location{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.contact div.phone{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.contact div.socials{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+

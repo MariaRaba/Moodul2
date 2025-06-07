@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/output.css" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+
+
+  <div class="navbar">
+    <nav
+      class="fixed w-full z-20 top-0 start-0 border-b border-gray-200 bg-white dark:bg-gray-900 dark:border-gray-600">
+      <div class="max-w-screen-xl mx-auto flex items-center justify-between px-4 py-4">
+        <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="./assets/logo02.svg" class="h-auto max-h-24" alt="Tuuliku Logo" />
+        </a>
+
+        <div class="flex items-center gap-3 md:order-2">
+          <a href="/src/contact.html"> <button
+              class="hidden md:inline-flex bg-warning text-white px-6 py-3 rounded-[20px] justify-center items-center font-semibold text-lg shadow-lg shadow-warning/15">
+              Kontakt
+            </button>
+          </a>
+          <a href="cart.html" class="ml-2">
+            <img src="./assets/Iconcart.svg" alt="Cart" class="w-10 h-10" />
+          </a>
+
+          <button data-collapse-toggle="navbar-sticky" type="button"
+            class="ml-1 inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-normal text-lg font-montserrat border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="/src/shop.html"
+                class="block py-2 px-3 text-gray-400 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Pood</a>
+            </li>
+            <li>
+              <a href="/src/activities.html"
+                class="block py-2 px-3 text-gray-400 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sündmused</a>
+            </li>
+            <li>
+              <a href="/src/donate.html"
+                class="block py-2 px-3 text-gray-400 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-black md:p-0 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Toeta</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
