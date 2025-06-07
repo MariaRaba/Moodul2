@@ -88,8 +88,6 @@ div.gallery-cell img {
 /* cell number */
 
 div.gallery-cell {
-  width: 715px;
-  height: 354px;
   margin-right: 10px;
   padding: 10px;
   background: #8C8;
@@ -121,8 +119,26 @@ div.gallery-cell .carrouselimg img {
   object-fit: contain;
 }
 
+div.gallery-cell .cellpara {
+  width: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px; /* spacing between paragraph and button */
+}
 
+.cellpara button {
+  max-width: 100%;
+  white-space: nowrap; /* optional, prevents breaking */
+}
 
+div.gallery-cell button {
+  width: 272px;
+  height: 79px;
+  border-radius: 20px;
+} 
 
 /* Donation page */
 div.toeta {
