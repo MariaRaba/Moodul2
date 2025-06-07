@@ -93,6 +93,11 @@ div.contact {
     
     margin-left: 233px;
     margin-right: 233px;
+    padding-bottom: 296px;
+}
+
+div.contact h1 {
+    margin-bottom: 40px;
 }
 
 div.contact div.contactbox {
@@ -100,13 +105,23 @@ div.contact div.contactbox {
     align-items: center;
     grid-template-columns: 1fr 1fr;
 
-    
+    border-radius: 40px;
+    background-color: white;
+
+    padding-left: 64px;
+   
+}
+
+div.contact div.contacttext {
+    margin-right: 213px;
 }
 
 div.contact div.location{
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
+
+    margin-top: 165px;
 }
 
 div.contact div.phone{
@@ -115,10 +130,50 @@ div.contact div.phone{
     grid-template-columns: 1fr 1fr;
 }
 
+div.contact div.location,
+div.contact div.phone {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr; 
+  column-gap: 16px; 
+}
+
+
 div.contact div.socials{
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
 }
 
+div.contact div.socials {
+  display: flex;              
+  align-items: center;
+  gap: 16px;                   
+  margin-top: 40px;
+}
 
+
+div.contact div.map iframe{
+   margin-bottom: 126px;
+   margin-top: 40px;
+
+}
+
+.contactform {
+  margin-right: 64px;
+}
+
+.contactform button {
+    width: 272px;
+    height: 79px;
+    border-radius: 20px;
+}
+
+   .contactform input,
+  .contactform textarea {
+    width: 613px;
+    height: 58px;
+    background-color: #F3F4F6;
+    border: 1px solid #9A9A9A;
+    font-size: 20px;
+  }
