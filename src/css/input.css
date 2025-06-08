@@ -55,6 +55,8 @@ div.team {
     margin-top: 158px;
     margin-left: 233px;
     margin-right: 233px;
+
+    margin-bottom: 168px;
 }
 
 div.team div.teamheading {
@@ -70,7 +72,7 @@ div.team div.teamheading {
 
 div.team div.teamcontent {
     display: grid;
-    align-items: start; /* alignib nad ülevalt*/
+    align-items: start; /*alignib nad ülevalt*/
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -189,6 +191,64 @@ div.gallery-cell button {
   height: 79px;
   border-radius: 20px;
 } 
+
+/*RECYCLE, REUSE | shop carrousel*/
+
+div.meened-gallery {
+  height: 700px;
+  margin-left: 86px;
+  margin-right: 86px;
+}
+
+div.meened-cell {
+  width: 715px !important;
+  height: 700px !important;
+  margin-right: 10px;
+  padding: 10px;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+div.meened-cell .meenedimg {
+  width: 715px;
+  height: 354px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.meened-cell .meenedimg img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+div.meened-cell .meenedpara {
+  width: 100%;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.meenedpara button {
+  max-width: 100%;
+  margin-top: 32px;
+  white-space: nowrap;
+}
+
+div.meened-cell button {
+  width: 272px;
+  height: 79px;
+  border-radius: 20px;
+}
+
+
+
 
 /* Donation page */
 div.toeta {
