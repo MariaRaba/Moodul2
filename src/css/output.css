@@ -820,9 +820,6 @@ p {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-body {
-  font-family: sans-serif;
-}
 div.gallery {
   height: 630px;
   background-color: aqua;
@@ -859,7 +856,7 @@ div.gallery-cell div.carrouseltext {
   display: flex;
   flex-direction: row;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 div.gallery-cell .carrouselimg {
   width: 715px;

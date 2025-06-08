@@ -55,7 +55,7 @@ p {
   box-sizing: border-box;
 }
 
-body { font-family: sans-serif; }
+
 
 div.gallery {
   height: 630px;
@@ -102,7 +102,7 @@ div.gallery-cell div.carrouseltext {
     flex-direction: row;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 div.gallery-cell .carrouselimg {
