@@ -61,7 +61,7 @@ div.team {
 
 div.team div.teamheading {
     margin-bottom: 40px;
-    text-align: center;
+   
 }
 
 .teamcontent h2 {
@@ -120,7 +120,6 @@ div.history {
 
 div.activities div.title {
     margin-bottom: 40px;
-    margin-left: 233px;
     margin-right: 86px;
 }
 
@@ -448,6 +447,7 @@ div.shop div.shopcontent {
     grid-template-columns: 1fr 1fr 1fr;
 
     margin-bottom: 296px;
+    gap: 24px;
 
 }
 
@@ -555,25 +555,25 @@ div.activities h2:first-of-type {
 
 
 /* footer */
-.footer {
+div.footer {
   color: white;
   
   padding-top: 58px;
 }
 
-.footer h2,
-.footer p {
+div.footer h2,
+div.footer p {
   color: white;
 }
 
-.fnavbar {
+div.footer div.fnavbar {
   display: flex;
   flex-wrap: wrap; 
 
   gap: 68px;
 }
 
-.fsocials {
+div.footer div.fsocials {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -589,7 +589,7 @@ div.footer div.footerbox3 {
  text-align: right;
 }
 
-.fnumber {
+div.footer div.fnumber {
   width: 100%;
   margin-top: 22px;
 }
