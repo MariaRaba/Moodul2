@@ -390,4 +390,24 @@ div.contactform button {
 
 
 
-  /*  */
+  /* History */
+
+  div.history h1 {
+    margin-left: 233px;
+    margin-top: 102px;
+  }
+
+  div.history div.historybox1 {
+    display: grid;
+    align-items: start; /*alignib nad ülevalt*/
+    grid-template-columns: 1fr 1fr 1fr;
+
+    margin-left: 233px;
+    margin-right: 233px;
+    margin-top: 40px;
+    margin-bottom: 42px;
+  }
+
+   div.history div.historybox1 p {
+    margin-top: 16px;
+   }

@@ -1069,6 +1069,22 @@ div.contactform input, div.contactform textarea {
   border: 1px solid #9A9A9A;
   font-size: 20px;
 }
+div.history h1 {
+  margin-left: 233px;
+  margin-top: 102px;
+}
+div.history div.historybox1 {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 233px;
+  margin-right: 233px;
+  margin-top: 40px;
+  margin-bottom: 42px;
+}
+div.history div.historybox1 p {
+  margin-top: 16px;
+}
 @layer base {
   :where(:root),:root:has(input.theme-controller[value=light]:checked),[data-theme=light] {
     color-scheme: light;
