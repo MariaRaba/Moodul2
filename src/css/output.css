@@ -842,6 +842,26 @@ div.team div.teamcontent {
 .teamcontent img {
   display: block;
 }
+div.history {
+  margin-top: 40px;
+  background: #ffffff;
+}
+div.history h1 {
+  margin-left: 233px;
+  margin-top: 102px;
+}
+div.history div.historybox1 {
+  display: grid;
+  align-items: start;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 233px;
+  margin-right: 233px;
+  margin-top: 40px;
+  margin-bottom: 42px;
+}
+div.history div.historybox1 p {
+  margin-top: 16px;
+}
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1069,21 +1089,54 @@ div.contactform input, div.contactform textarea {
   border: 1px solid #9A9A9A;
   font-size: 20px;
 }
-div.history h1 {
-  margin-left: 233px;
-  margin-top: 102px;
-}
-div.history div.historybox1 {
-  display: grid;
-  align-items: start;
-  grid-template-columns: 1fr 1fr 1fr;
+div.shop {
+  margin-top: 222px;
   margin-left: 233px;
   margin-right: 233px;
-  margin-top: 40px;
-  margin-bottom: 42px;
 }
-div.history div.historybox1 p {
-  margin-top: 16px;
+div.shop div.shopfilter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+.shopfilter h2:first-of-type {
+  margin-right: 8px;
+}
+.shopfilter h2.font-semibold {
+  margin-right: 50px;
+}
+.shopfilter img:first-of-type {
+  margin-right: 32px;
+}
+div.shop div.shopcontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 296px;
+}
+.shop button {
+  width: 272px;
+  height: 79px;
+  white-space: nowrap;
+  border-radius: 20px;
+}
+div.shop div.shopcontent h2 {
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+div.shop div.shopcontent h1 {
+  margin-bottom: 40px;
+}
+div.shop div.shopcontent > div {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+div.shop div.shopcontent > div img {
+  align-self: center;
 }
 @layer base {
   :where(:root),:root:has(input.theme-controller[value=light]:checked),[data-theme=light] {
