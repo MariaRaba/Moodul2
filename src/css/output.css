@@ -404,6 +404,29 @@
     padding: 0.5rem;
     min-height: 4rem;
   }
+  .footer {
+    display: grid;
+    width: 100%;
+    grid-auto-flow: row;
+    place-items: start;
+    column-gap: calc(0.25rem * 4);
+    row-gap: calc(0.25rem * 10);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    & > * {
+      display: grid;
+      place-items: start;
+      gap: calc(0.25rem * 2);
+    }
+    &.footer-center {
+      grid-auto-flow: column dense;
+      place-items: center;
+      text-align: center;
+      & > * {
+        place-items: center;
+      }
+    }
+  }
   .block {
     display: block;
   }
@@ -1192,6 +1215,39 @@ div.activities-filter img:first-of-type {
 .activities-content p {
   margin-top: 16px;
   margin-bottom: 32px;
+}
+.footer {
+  color: white;
+}
+.footer h2, .footer p {
+  color: white;
+}
+div.footer {
+  display: grid;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: #2A2720;
+  padding-left: 233px;
+  padding-right: 233px;
+}
+.fnavbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 68px;
+}
+.fsocials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 61px;
+}
+div.footer div.footerbox3 {
+  text-align: right;
+}
+.fnumber {
+  width: 100%;
 }
 @layer base {
   :where(:root),:root:has(input.theme-controller[value=light]:checked),[data-theme=light] {

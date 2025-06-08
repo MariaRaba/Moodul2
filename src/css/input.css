@@ -552,3 +552,52 @@ div.activities h2:first-of-type {
   margin-top: 16px;
   margin-bottom: 32px;
 }
+
+
+/* footer */
+.footer {
+  color: white;
+}
+
+.footer h2,
+.footer p {
+  color: white;
+}
+
+
+
+div.footer {
+  display: grid;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 2fr 1fr;
+
+  background-color: #2A2720;
+  padding-left: 233px;
+  padding-right: 233px;
+}
+
+
+.fnavbar {
+  display: flex;
+  flex-wrap: wrap; 
+
+  gap: 68px;
+}
+
+.fsocials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  width: 100%;
+  gap: 61px;
+}
+
+div.footer div.footerbox3 {
+ text-align: right;
+}
+
+.fnumber {
+  width: 100%;
+}
