@@ -557,26 +557,14 @@ div.activities h2:first-of-type {
 /* footer */
 .footer {
   color: white;
+  
+  padding-top: 58px;
 }
 
 .footer h2,
 .footer p {
   color: white;
 }
-
-
-
-div.footer {
-  display: grid;
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1fr 2fr 1fr;
-
-  background-color: #2A2720;
-  padding-left: 233px;
-  padding-right: 233px;
-}
-
 
 .fnavbar {
   display: flex;
@@ -589,9 +577,12 @@ div.footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+
   width: 100%;
   gap: 61px;
+
+  margin-top: 34px;
+  margin-bottom: 110px;
 }
 
 div.footer div.footerbox3 {
@@ -600,4 +591,23 @@ div.footer div.footerbox3 {
 
 .fnumber {
   width: 100%;
+  margin-top: 22px;
+}
+
+div.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: start;
+
+  background-color: #2A2720;
+  padding-left: 233px;
+  padding-right: 233px;
+}
+
+div.footer div.fnavbar {
+  font-size: 24px;
+}
+
+div.footer div.copyright {
+  margin-bottom: 64px;
 }
