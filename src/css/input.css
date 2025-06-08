@@ -49,6 +49,24 @@ p {
     margin-top: 125px;
 }
 
+div.team {
+     text-align: center;
+     margin-top: 158px;
+
+     margin-left: 86px;
+     margin-right: 86px;
+}
+
+div.team div.teamcontent{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+}
+
+
+
 /* external css: flickity.css */
 * {
   -webkit-box-sizing: border-box;
@@ -57,10 +75,14 @@ p {
 
 div.activities div.title {
     margin-bottom: 40px;
+    margin-left: 86px;
+    margin-right: 86px;
 }
 
 div.gallery {
-  height: 700px;
+    height: 700px;
+    margin-left: 86px;
+    margin-right: 86px;
 }
 
 div.gallery-cell {
