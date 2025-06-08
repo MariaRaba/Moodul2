@@ -825,7 +825,6 @@ div.activities div.title {
 }
 div.gallery {
   height: 700px;
-  background-color: aqua;
 }
 div.gallery-cell {
   width: 715px !important;
@@ -849,7 +848,6 @@ div.gallery-cell img {
 div.gallery-cell {
   margin-right: 10px;
   padding: 10px;
-  background: #8C8;
   display: flex;
   flex-direction: column;
   align-items: center;
