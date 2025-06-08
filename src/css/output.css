@@ -849,6 +849,7 @@ div.team {
 }
 div.team div.teamheading {
   margin-bottom: 40px;
+  text-align: center;
 }
 .teamcontent h2 {
   margin-top: 16px;
@@ -968,7 +969,7 @@ div.gallery-cell button {
 }
 div.meenedtitle div.title {
   margin-bottom: 61px;
-  margin-left: 233px;
+  text-align: center;
 }
 div.meened-gallery {
   height: 650px;

@@ -57,11 +57,12 @@ div.team {
     margin-right: 233px;
 
     margin-bottom: 168px;
+     
 }
 
 div.team div.teamheading {
     margin-bottom: 40px;
-   
+     text-align: center;
 }
 
 .teamcontent h2 {
@@ -217,7 +218,8 @@ div.gallery-cell button {
 /*RECYCLE, REUSE | shop carrousel*/
 div.meenedtitle div.title {
   margin-bottom: 61px;
-  margin-left: 233px;
+ 
+  text-align: center;
 }
 
 
