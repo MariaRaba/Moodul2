@@ -98,11 +98,15 @@ div.gallery-cell {
 }
 
 div.gallery-cell div.carrouseltext {
-    display: flex;
-    flex-direction: row;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 1px; /* as requested */
+  width: 100%;
+}
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.carrouseltext .date {
+  text-align: right;
+  justify-self: end;
 }
 
 div.gallery-cell .carrouselimg {

@@ -853,10 +853,14 @@ div.gallery-cell {
   justify-content: flex-start;
 }
 div.gallery-cell div.carrouseltext {
-  display: flex;
-  flex-direction: row;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto 1fr;
+  gap: 1px;
+  width: 100%;
+}
+.carrouseltext .date {
+  text-align: right;
+  justify-self: end;
 }
 div.gallery-cell .carrouselimg {
   width: 715px;
