@@ -826,9 +826,13 @@ div.team div.teamheading {
   margin-bottom: 40px;
   text-align: center;
 }
+.teamcontent h2 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
 div.team div.teamcontent {
   display: grid;
-  align-items: center;
+  align-items: start;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .teamcontent div {
@@ -836,7 +840,6 @@ div.team div.teamcontent {
 }
 .teamcontent img {
   display: block;
-  margin: 0 auto;
 }
 * {
   -webkit-box-sizing: border-box;
